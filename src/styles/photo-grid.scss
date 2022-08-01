@@ -1,5 +1,6 @@
-.basic-grid {
-background-color: $info;
+.photo-grid {
+  background-color: $confirm;
+  color: $dark1;
   > section {
     display: grid;
     gap: 1rem;
@@ -7,6 +8,5 @@ background-color: $info;
     /** fr = fractional unit
     * ie 1fr == 1x column 100% of available space
     * 1fr 1fr == 2x columns 50% of available space */
-    grid-template-columns: repeat(auto-fill, minmax(10rem, 0.9fr));
   }
 }

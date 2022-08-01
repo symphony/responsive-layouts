@@ -2,8 +2,10 @@
 
 /// == exports ==
 // = global =
+@import './variables.scss';
 @import './reset.scss';
 @import './base.scss';
 
 // = components =
 @import './basic-grid.scss';
+@import './photo-grid.scss';
