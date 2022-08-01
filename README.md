@@ -5,9 +5,11 @@ CSS grid layout and animation examples.
 - Responsive 12-column bootstrap replacement
 - Mosaic photo gallery
 - Staggered animation grid
+- Hover effects and animation
 
 # Examples
 ![hover effect on grid](_docs/01-hover.gif)
+![basic grid and photo grid](_docs/02-grids.png)
 
 ## Usage
 1. Compile SCSS files \
