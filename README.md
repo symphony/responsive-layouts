@@ -1,5 +1,5 @@
 # The Joy of CSS Grid
-CSS grid layout and animation examples
+CSS grid layout and animation examples.
 
 ## Features
 - Responsive 12-column bootstrap replacement
@@ -8,7 +8,7 @@ CSS grid layout and animation examples
 
 ## Usage
 1. Compile SCSS files \
-`npm run build` OR `npm run watch`
+  `npm run build` <sub><sup>OR</sup></sub> `npm run watch`
 
 2. Open `public/index.html` in your browser. 
 
