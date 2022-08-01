@@ -4,8 +4,9 @@
   "description": "CSS Grid layout and animation examples",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.ts"
+    "start": "node index.ts",
+    "build": "node_modules/.bin/sass src/styles/:public/styles",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/symphony/responsive-layouts/issues"
   },
-  "homepage": "https://github.com/symphony/responsive-layouts#readme"
+  "homepage": "https://github.com/symphony/responsive-layouts#readme",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  }
 }
