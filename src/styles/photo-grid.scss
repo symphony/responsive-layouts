@@ -1,6 +1,7 @@
 .photo-grid {
   background-color: $confirm;
   color: $dark1;
+
   > section {
     display: grid;
     gap: 1rem;
@@ -10,5 +11,9 @@
     * 1fr 1fr == 2x columns 50% of available space */
     grid-template-columns: repeat(auto-fill, minmax(12rem, 0.9fr));
     grid-auto-rows: 12rem;
+
+    .card:hover p {
+      text-shadow: 2px 3px 1px #850238f1;
+    }
   }
 }
