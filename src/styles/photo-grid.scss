@@ -15,5 +15,15 @@
     .card:hover p {
       text-shadow: 2px 3px 1px #850238f1;
     }
+
+    @media screen and (min-width: 600px) {
+      .card-tall {
+        grid-row: span 2 / auto;
+      }
+
+      .card-wide {
+        grid-column: span 2 / auto;
+      }
+    }
   }
 }

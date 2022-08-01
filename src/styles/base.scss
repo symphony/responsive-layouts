@@ -34,28 +34,18 @@ article {
     display: flex;
     justify-content: center;
 
-    // prevents hovering effects on parent container
-    pointer-events: none;
-
-    // dim non hovered elements
-    &:hover .card:not(:hover) {
-      transition: 300ms ease;
-      opacity: 0.8;
-    }
-
-
     .card {
       @include font-scale(0.7em);
       display: flex;
       justify-content: center;
       align-items: center;
+      height: 100%;
+      width: 100%;
       background: #353535;
       color: #fff;
       box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-      height: 100%;
-      width: 100%;
-      border-radius: $radius;
       transition: all 300ms $ease;
+      border-radius: $radius;
       overflow: hidden;
       cursor: pointer;
 
@@ -67,6 +57,7 @@ article {
 
       pointer-events: auto; // enables hover effects
 
+      // hover effects
       &:hover {
         box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
         transform: translateY(-2%) scale(1.05);
@@ -76,6 +67,15 @@ article {
           transform: translateY(-4%) scale(1.1);
         }
       }
+    }
+
+    // prevents hovering effects on parent container
+    pointer-events: none;
+
+    // dim non hovered elements
+    &:hover .card:not(:hover) {
+      transition: 300ms ease;
+      opacity: 0.8;
     }
   }
 }

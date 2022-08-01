@@ -6,6 +6,9 @@ CSS grid layout and animation examples.
 - Mosaic photo gallery
 - Staggered animation grid
 
+# Examples
+![hover effect on grid](_docs/01-hover.gif)
+
 ## Usage
 1. Compile SCSS files \
   `npm run build` <sub><sup>OR</sup></sub> `npm run watch`
