@@ -18,27 +18,20 @@ body, html {
 
 // typographic improvements
 body {
-  // add accessible line-height
-  line-height: 1.5;
-
-  // improve text rendering
-  -webkit-font-smoothing: antialiased;
+  line-height: 1.5; // add accessible line-height
+  -webkit-font-smoothing: antialiased; // improve text rendering
 }
 
 // links
 a, a:visited {
-  // remove underscore
-  text-decoration: none;
-
-  // remove default link colour
-  color: inherit;
+  text-decoration: none; // remove underscore
+  color: inherit; // remove default link colour
 }
 
 // lists
 ul, ol {
-  // removes bullets
-  list-style: none;
   padding: 0;
+  list-style: none; // removes bullets
 }
 
 // improve media defaults
@@ -61,5 +54,4 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
-
 // -- end resets --

@@ -1,3 +1,9 @@
-// exports
+/** remember to import every file */
+
+/// == exports ==
+// = global =
 @import './reset.scss';
 @import './base.scss';
+
+// = components =
+@import './basic-grid.scss';
