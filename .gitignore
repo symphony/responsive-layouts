@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+### == Other ==
+# System
+.DS_Store
+Thumbs.db
+
+# Build Files
+public/styles
+**.*.map

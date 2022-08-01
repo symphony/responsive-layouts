@@ -1,0 +1,21 @@
+{
+  "name": "responsive-layouts",
+  "version": "1.0.0",
+  "description": "CSS Grid layout and animation examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symphony/responsive-layouts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/symphony/responsive-layouts/issues"
+  },
+  "homepage": "https://github.com/symphony/responsive-layouts#readme"
+}

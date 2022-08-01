@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+body {
+  font: 100% $font-stack;
+  background-color: $dark1;
+  color: $light1;
+}
