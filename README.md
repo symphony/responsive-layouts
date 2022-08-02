@@ -11,6 +11,7 @@ CSS grid layout and animation examples.
 ![hover effect on grid](_docs/01-hover.gif)
 ![basic grid and photo grid](_docs/02-grids.png)
 ![animated grid pop in](_docs/03-animated.gif)
+![rainbow animated pop in](_docs/04-colours.gif)
 
 ## Usage
 1. Compile SCSS files \
