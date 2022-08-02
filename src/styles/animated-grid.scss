@@ -1,5 +1,4 @@
 .animated-grid {
-
   section {
     height: 85vh;
     margin-bottom: 200px;
@@ -17,95 +16,94 @@
     grid-template-rows: repeat(4, 25%);
     grid-template-columns: 240px auto auto 240px;
 
+
+    @keyframes cardEntrance {
+      from {
+        opacity: 0;
+        transform: scale(0.3);
+        filter: hue-rotate(180deg);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+      }
+    }
+
+
+    .card {
+      background-color: rgb(36, 243, 147);
+      animation: cardEntrance 700ms ease-out;
+      animation-fill-mode: backwards;
+
+      // variables
+      $delay: 100ms;
+
+      &:nth-child(1) {
+        grid-area: a;
+        animation-delay: calc(1 * $delay);
+      }
+
+      &:nth-child(2) {
+        grid-area: b;
+        animation-delay: calc(2 * $delay);
+      }
+
+      &:nth-child(3) {
+        grid-area: c;
+        animation-delay: calc(3 * $delay);
+      }
+
+      &:nth-child(4) {
+        grid-area: d;
+        animation-delay: calc(4 * $delay);
+      }
+
+      &:nth-child(5) {
+        grid-area: e;
+        animation-delay: calc(5 * $delay);
+      }
+
+      &:nth-child(6) {
+        grid-area: f;
+        animation-delay: calc(6 * $delay);
+      }
+
+      &:nth-child(7) {
+        grid-area: g;
+        animation-delay: calc(7 * $delay);
+      }
+
+      &:nth-child(8) {
+        grid-area: h;
+        animation-delay: calc(8 * $delay);
+      }
+
+      &:nth-child(9) {
+        grid-area: i;
+        animation-delay: calc(9 * $delay);
+      }
+
+      &:nth-child(10) {
+        grid-area: j;
+        animation-delay: calc(10 * $delay);
+      }
+
+      &:nth-child(11) {
+        grid-area: k;
+        animation-delay: calc(11 * $delay);
+      }
+
+      &:nth-child(12) {
+        grid-area: l;
+        animation-delay: calc(12 * $delay);
+      }
+
+      &:last-child {
+        grid-area: 🌟;
+        animation-delay: calc(13 * $delay);
+      }
+    }
   }
-
-  @keyframes cardEntrance {
-    from {
-      opacity: 0;
-      transform: scale(0.3);
-      filter: hue-rotate(180deg);
-    }
-
-    to {
-      opacity: 1;
-      transform: scale(1);
-      filter: hue-rotate(0deg);
-    }
-  }
-
-
-  .card {
-    background-color: rgb(36, 243, 147);
-    animation: cardEntrance 700ms ease-out;
-    animation-fill-mode: backwards;
-
-    // variables
-    $delay: 100ms;
-
-    &:nth-child(1) {
-      grid-area: a;
-      animation-delay: calc(1 * $delay);
-    }
-
-    &:nth-child(2) {
-      grid-area: b;
-      animation-delay: calc(2 * $delay);
-    }
-
-    &:nth-child(3) {
-      grid-area: c;
-      animation-delay: calc(3 * $delay);
-    }
-
-    &:nth-child(4) {
-      grid-area: d;
-      animation-delay: calc(4 * $delay);
-    }
-
-    &:nth-child(5) {
-      grid-area: e;
-      animation-delay: calc(5 * $delay);
-    }
-
-    &:nth-child(6) {
-      grid-area: f;
-      animation-delay: calc(6 * $delay);
-    }
-
-    &:nth-child(7) {
-      grid-area: g;
-      animation-delay: calc(7 * $delay);
-    }
-
-    &:nth-child(8) {
-      grid-area: h;
-      animation-delay: calc(8 * $delay);
-    }
-
-    &:nth-child(9) {
-      grid-area: i;
-      animation-delay: calc(9 * $delay);
-    }
-
-    &:nth-child(10) {
-      grid-area: j;
-      animation-delay: calc(10 * $delay);
-    }
-
-    &:nth-child(11) {
-      grid-area: k;
-      animation-delay: calc(11 * $delay);
-    }
-
-    &:nth-child(12) {
-      grid-area: l;
-      animation-delay: calc(12 * $delay);
-    }
-
-    &:last-child {
-      grid-area: 🌟;
-      animation-delay: calc(13 * $delay);
-    }
-  }
-
 }
