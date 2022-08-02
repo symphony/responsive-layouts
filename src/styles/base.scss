@@ -31,9 +31,6 @@ article {
 
   // grid styling
   section {
-    display: flex;
-    justify-content: center;
-
     .card {
       @include font-scale(0.7em);
       display: flex;
